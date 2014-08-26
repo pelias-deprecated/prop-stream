@@ -1,0 +1,36 @@
+{
+  "name": "prop-stream",
+  "author": "mapzen",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/pelias/prop-stream",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pelias/prop-stream.git"
+  },
+  "keywords": [
+    "property",
+    "stream",
+    "whitelist",
+    "blacklist"
+  ],
+  "bugs": {
+    "url": "https://github.com/pelias/prop-stream/issues"
+  },
+  "engines": {
+    "node": ">=0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "dependencies": {
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4",
+    "tap-spec": "^0.2.0"
+  }
+}

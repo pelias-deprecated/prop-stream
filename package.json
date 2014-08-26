@@ -2,7 +2,7 @@
   "name": "prop-stream",
   "author": "mapzen",
   "version": "0.0.0",
-  "description": "",
+  "description": "whitelist / blacklist the properties of objects being passed down a stream",
   "homepage": "https://github.com/pelias/prop-stream",
   "license": "MIT",
   "main": "index.js",
